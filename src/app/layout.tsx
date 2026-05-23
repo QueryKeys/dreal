@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata } from 'next/types'
 
 export const metadata: Metadata = {
   title: 'Crypto Dashboard - Wyckoff+ Signal Engine',

@@ -6,21 +6,12 @@ node_modules/
 .next/
 dist/
 build/
+out/
 
 # Environment variables
 .env
 .env.local
-*.env.*
-
-# IDE specific
-.vscode/
-.idea/
-
-# Python related (if any Python files exist in project)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+.env.*
 
 # Logs
 *.log
@@ -29,8 +20,9 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Temporary files
-*.tmp
+# IDE specific
+.vscode/
+.idea/
 *.swp
 *.swo
 
@@ -39,11 +31,13 @@ coverage/
 htmlcov/
 .coverage
 
-# TypeScript/JavaScript build artifacts
-*.js.map
-*.ts.map
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Next.js specific
-out/
-.cache/
+# Temporary files
+*.tmp
+*.temp
 ```
