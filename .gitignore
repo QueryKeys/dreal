@@ -1,0 +1,49 @@
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# IDE specific
+.vscode/
+.idea/
+
+# Python related (if any Python files exist in project)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# TypeScript/JavaScript build artifacts
+*.js.map
+*.ts.map
+
+# Next.js specific
+out/
+.cache/
+```
